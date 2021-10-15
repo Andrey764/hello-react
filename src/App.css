@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Conteiner{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Text {
+  color: #282c34;
+  min-height: 5vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
